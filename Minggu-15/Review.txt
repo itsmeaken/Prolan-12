@@ -1,0 +1,80 @@
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PERTEMUAN |                MATERI	  	 |	                                         PENJELASAN						  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+| I	    | Pendahuluan			 | -Menjelaskan mengenai Java, dan sejarah Java.							  |
+|	    |					 | -Java Adalah Java adalah bahasa pemrograman yang dikembangkan oleh Sun Microsystems,			  |
+|	    |				         |  yang diinisialisasi oleh James Gosling tahun 1991 dan dirilis tahun 1995.				  |
+|	    |					 | -Awalnya disebut dengan Oak, lalu menjadi Green, dan akhirnya menjadi Java. 				  |						 
+|	    |					 | -Membuat program HelloWorld.									  	  |					 	
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| II	    | Konsep Dasar OOP			 | -Menurut Meyer (1997), sistem yang dibangun berdasarkan metode berorientasi objek adalah      	  |
+|	    |					 |  sebuah sistem yang komponennya dienkapsulasi(dibungkus) menjadi kelompok data dan fungsi     	  |
+|	    |					 |  yang dapat mewarisi atribut dan sifat dari komponen lainnya dan komponen komponen tersebut   	  |
+|	    |					 |  berinteraksi satu sama lain.			   					 	  |				
+|	    |					 | -Mempelajari mengenai input dan output.  								  |		
+|	    |					 | -Membedakan println dengan print. 									  |
+|	    |					 | -Menggunakan method scanner.					    			 		  |								    					    
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| III       | Kelas dan Objek			 | -Kelas merupakan suatu bentuk klasifikasi dari objek-objek yang ada di dunia ini.  			  |			
+|	    |					 | -Objek didefinisikan seperti variabel.					 	   		  |				
+|	    |					 |  Contoh :		 									   	  |					
+|	    |					 |  Mahasiswa kim = new Mahasiswa();								    	  |
+|	    |					 | -Membuat kelas dan objek.						    		 		  |										
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IV	    | Method, Konstruktor, This, Atribut | -Method adalah sekumpulan baris program atau prosedur yang secara bersama-sama melakukan	   	  |				    
+|	    |					 |  suatu task.					 						          |			
+|	    |					 | -Konstruktor adalah sebuah prosedur atau aksi-aksi yang dilakukan ketika konstuktor dipanggil	  |
+|	    |					 |  atau ketika sebuah objek dibuat atau diciptakan.                 					  |				
+|	    |					 | -This digunakan sebagai referensi sebuah objek dari kelas di mana "this" tersebut digunakan.	 	  | 								
+|	    |					 | -Atribut di Java adalah sebagai variabel dengan tipe datanya dan didefinisikan di dalam kelas.	  |							    					
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| V	    | Inheritance			 | -Inheritance adalah penurunan karakteristik dan atribut (method dan objek) kepada kelas lain.	  |							
+|	    |					 | -Inherinatce juga dapat didefiniskan bahwa sebuah kelas dapat mengakuisisi atribut dan fungsi 	  | 
+|	    |					 |  dari kelas lain.						 					  |	
+|	    |					 | -Membuat program untuk mencari nilai max dan min.		   					  |					    		
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| VI	    | Overriding			 | -Method overriding berarti memodifikasi isi method yang sudah ada di super kelas. 		    	  |  			    
+|	    |					 | -Aturan dari method overriding pada Java :								  |				
+|	    |					 |  1. Method yang di-override adalah method yang diturunkan melalui proses inheritance. 		  |	
+|	    |					 |  2. Method yang di-override adalah method yang memiliki kesamaan dari nama maupun parameter.		  |																			
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| VII	    | Polimorfisme			 | -Polimorfisme adalah kemampuan suatu object untuk memiliki banyak bentuk.				  |			
+|	    |					 | -Polimorfisme terjadi ketika sebuah super kelas digunakan untuk menjadi reference objek dari		  |
+|	    |					 |  sebuah sub-kelas.											  |			
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IX	    | Abstraction			 | -Abstraksi adalah proses untuk menyembunyikan detail proses yang dilakukan.			          |										   			
+|	    |					 | -Abstraksi pada OOP adalah sebuah proses atau aksi apa yang objek lakukan bukan bagaimana		  |
+|	    |					 |  objek melakukansebuah proses atau aksi.								  |
+|	    |					 | -Pada Java abstraksi ditunjukkan dengan penggunaan keyword abstract dan akan disebut kelas		  | 
+|	    |					 |  abstract.			 									  |																																														
+|	    |					 | -Jika ingin menggunakan kelas abstract, maka kelas abstract harus diturunkan ke kelas lain		  |
+|	    |					 |  yaitu kelas konkret melalui proses Inheritance.							  |					 															 
+|	    |					 | -Membuat kelas abstrak										  |																																																																																																																																																																								 															 
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| X	    | Encapsulation			 | -Enkapsulasi adalah sebuah proses atau mekanisme yang membungkus data dan fungsi dari sebuah           |
+|	    |					 |  kelas menjadi unit atau yang dikenal dengan konsep data hiding.					  |						   
+|	    |					 | -Setiap atribut dikelas diset private yang hanya dapat diakses dan dimodifikasi melalui method         |
+|	    |					 |  public yang disebut getter-setter.									  |			  						
+|	    |					 | -Data dari sebuah kelas hanya dapat dibuat read only(get saja), write only(set saja) atau 		  |
+| 	    |					 |  keduanya(get-set).		 									  |
+|	    |					 | -Belajar coding Encapsulation.									  |					  																																																															 																																																										
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| XI	    | Interface				 | -Interface adalah kumpulan method abstrak.								  |
+|	    |					 | -Reference type yang mirip dengan class, class menjelaskan atribut & method tetapi interface		  |		   
+|	    |					 |  methodnya bisa di implementasi oleh class.								  |		   			    																    					    
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| XII	    | Generic Class			 | -Generik Class adalah kelas yang memiliki tipe data yang dapat ditentukan di kelas lain.		  |								  
+|	    |					 | -Belum ada spesifikasi tipe data dan fungsi yang ada pada kelas tersebut, kelas bebas menentukan       |
+|	    |					 |  sendiri ingin menjadi apa.									          |
+|	    |					 | -Kelas generic pada java ditentukan sebagai parameter Tipe, kita dapat mengeksplisitkan paramater	  |
+| 	    |					 |  type dan mengeksplisitkan Type casting dan nama untuk tipe generik menggunakan huruf besar->          |
+|	    |					 |  E=element,K=key,N=number,T=type,V=value.								  |
+|	    |					 | -Belajar coding Generic Class.									  |  				 																																							
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| XIII	    | Generic Method			 | -Generik Method adalah method yang memiliki tipe data yang dapat ditentukan di kelas lain.		  |
+|	    |					 | -Digunakan untuk menyatakan type parameter method yang tidak berkaitan dengan parameter yang dimiliki. |																					    
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| XIV	    | Packages				 | -Digunakan untuk menghindari konflik									  |		 
+|	    |					 | -Dapat didefinisikan sebagai sekumpulan class							  |			 
+|	    |					 | -Memberi proteksi pada class										  |																					    
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
